@@ -255,7 +255,7 @@ class AppData {
       position: 'Staff Acara',
       division: 'Divisi Acara',
       fullName: 'Vyn Richter',
-      nim: '202331001',
+      nim: '202732777',
       email: 'vyn.richter@itpln.ac.id',
       phone: '081234567890',
       reason: 'Ingin mengasah kemampuan manajemen kepanitiaan kampus.',
@@ -1573,7 +1573,7 @@ class _FormPendaftaranPesertaScreenState extends State<FormPendaftaranPesertaScr
                       TextFormField(
                         controller: _nimController,
                         keyboardType: TextInputType.number,
-                        decoration: const InputDecoration(hintText: 'Contoh: 202331001'),
+                        decoration: const InputDecoration(hintText: 'Contoh: 202732777'),
                         validator: (val) {
                           if (val == null || val.trim().isEmpty) return 'NIM wajib diisi!';
                           if (val.trim().length < 5) return 'NIM minimal 5 digit angka!';
@@ -2689,7 +2689,7 @@ class ProfilScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'NIM: 202331001 • S1 Sistem Informasi',
+                  'NIM: 202732777 • S1 Sistem Informasi',
                   style: TextStyle(fontSize: 13, color: Colors.grey.shade700),
                 ),
                 const SizedBox(height: 24),
