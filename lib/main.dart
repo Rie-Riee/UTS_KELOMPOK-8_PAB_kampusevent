@@ -239,7 +239,7 @@ class AppData {
       date: '15 November 2026',
       location: 'Auditorium IT PLN',
       fullName: 'Vyn Richter',
-      nim: '202331001',
+      nim: '202732777',
       email: 'vyn.richter@itpln.ac.id',
       phone: '081234567890',
       faculty: 'FTEN / S1 Sistem Informasi',
